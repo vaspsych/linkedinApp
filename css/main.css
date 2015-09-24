@@ -1,0 +1,206 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-cont {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.btn {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 13px 40px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:before {
+    font-family: 'fontawesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.btn-5 {
+    background: #FFFFFF;
+    color: #000;
+    height: 50px;
+    min-width: 260px;
+    line-height: 24px;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid #DFDFDF;
+}
+
+.btn-5:active {
+    background: #0077B5;
+    top: 2px;
+}
+
+.btn-5 span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.btn-5:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 2.5;
+    font-size: 180%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-5:active:before {
+    color: #FFFFFF;
+}
+
+.btn-5a:hover span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+}
+
+.btn-5a:before {
+    left: 0;
+    top: -100%;
+}
+
+.btn-5a:hover:before {
+    top: 0;
+}
+
+.icon-linkedin:before {
+    font-family: 'fontawesome';
+    content: "\f0e1";
+    font-size: small;
+    line-height: 50px;
+}
+
+.profile-card {
+    display: none;
+}
+
+.all-info {
+    width: 400px;
+    overflow: auto;
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+    margin: auto;
+}
+
+.photo {
+    float: left;
+    width: 85px;
+    padding: 0 5px 0 0;
+}
+
+.personal-info {
+    float: left;
+    width: 300px;
+}
+
+.full-name {
+    margin: 0;
+    padding: 0px;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.job-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: medium;
+}
+
+.connections {
+    margin: 10px 0;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.actions-bar {
+    margin: auto;
+    text-align: center;
+    bottom: 0px;
+    font-weight: 100;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.under-buttons {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    ne;
+}
+
+.under-buttons:focus {
+    outline: none;
+}
+
+.admin-title {
+    text-align: center;
+    font-size: small;
+}
+
+.companies {
+    width: 400px;
+    overflow: auto;
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+    margin: auto;
+    font-size: small;
+}
+
+.company-description {
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.company-name {
+    margin-bottom: 0;
+}
